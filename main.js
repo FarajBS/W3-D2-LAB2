@@ -106,3 +106,55 @@ let words = ['hello', 'world', 'javascript', 'array', 'function'];
 // let result15A = 
 
 let result15B = words.includes("javascript");
+
+// =========================================================================================================================================== //
+
+                                                                // Functions Lab //
+
+// For Sum
+function sum(num1, num2) {
+    return num1 + num2;
+};
+
+let funSum = sum(5, 5);
+console.log(funSum);
+
+// =========================================================================================================================================== //
+
+// For Sub
+function sub(num1, num2) {
+    return num1 - num2;
+};
+
+let funSub = sub(10, 5);
+console.log(funSub);
+
+// =========================================================================================================================================== //
+
+// For Multiplication
+function multiplication(num1, num2) {
+    return num1 * num2;
+};
+
+let funMultiplication = multiplication(5, 5);
+console.log(funMultiplication);
+
+// =========================================================================================================================================== //
+
+// For Division
+function divison(num1, num2) {
+    return num1 / num2;
+};
+
+let funDivision = divison(25, 5);
+console.log(funDivision);
+
+// =========================================================================================================================================== //
+
+// For Remainder Of Division
+function remainderOfDivision(num1, num2) {
+    return num1 % num2;
+};
+
+let funRemainderOfDivision = remainderOfDivision(10, 2);
+console.log(funRemainderOfDivision);
